@@ -1,0 +1,410 @@
+
+
+body{
+    min-width: 500px;
+    background-color: #191919;
+}
+
+header{
+    min-height: 65vh;
+    width: 100%;
+    background-image: url(../images/indexhatter9.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ugras_az_oldalon{
+    position: absolute;
+    top:-1000px;
+}
+
+main h1{
+    font-family: 'Radio Canada', Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size: 3em;
+    text-align: left;
+    color:#fff;
+    margin-top: 10px;
+    font-family: 'Montserrat','Lucida Sans', sans-serif;
+}
+
+.title_button{
+    margin-left: 50px;
+    margin-right: 100px;
+    position: relative;
+    padding-top: 42vh;
+    padding-bottom: 20px;
+    margin-bottom: 1vh;
+}
+
+main h1, footer h1{
+    font-size: 4.7em;
+    text-align: center;
+    color:#fff;
+    margin:50px 50px 25px 50px;
+}
+
+footer h1{
+    font-family: 'Orbitron', 'Radio Canada', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2.8em;
+    color:#fff;
+    padding-top: 10px;
+    text-align: left;
+    margin-left:10px;
+    margin-bottom: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+#copyBtn{
+    width: 22px;
+    height: 22px;
+    background-color: Transparent;
+    background-image: url(../images/copy1.png);
+    background-size: cover;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+h3{
+    font-size: 2.25em;
+    color:#fff;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+#OurToken h2{
+    margin-right: 25%;
+    padding-top: 35px;
+}
+
+main li{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 20px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    text-align: left;
+    color:#fff;
+    margin-left: 10px;
+    margin-right: min(350px, calc(50px + 42%));
+    font-family: sans-serif, Courier, monospace;
+}
+
+#OurToken{
+    background: url(../images/kezdolapkep10.png) no-repeat;
+    background-position: right;
+    background-size: auto 410px;
+}
+
+/*DATUMOK*/
+#Datumok {
+    position: relative;
+    width: 100%;
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    min-height: 430px;
+
+}
+
+
+.line{
+    position: absolute;
+    background-color: #4f9ad5;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    bottom: 50%;
+}
+
+.circle{
+    position: absolute;
+    background-color: #4f9ad5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+}
+
+.fuggoleges{
+    position: absolute;
+    background-color: #4f9ad5;
+    height: 150px;
+    width: 3px;
+    left: 50px;
+    transition: height .1s;
+    border-radius: 10px;
+}
+
+#elso{
+    height: 175px;
+}
+
+#masodik{
+    height: 110px;
+}
+
+#negyedik{
+    height: 190px;
+}
+
+.fent{
+    bottom:50px;
+}
+
+.lent{
+    top:50px;
+}
+
+.cel{
+    bottom: -15px;
+    position: absolute;
+    left: 8px;
+    width: 120px;
+    height: 60px;
+    text-align: left;
+    font-size: 1.4em;
+    color: #fff;
+    line-height: 1.1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fent .cel{
+    top:-5px;
+}
+
+#utolso{
+    bottom:10px;
+}
+
+.szoveg{
+    text-align: center;
+    position: absolute;
+    top:31px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.1;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.circle:nth-child(1){
+    left: max(5%, calc(15% - 50px));
+}
+
+.circle:nth-child(1):hover #elso{
+    height: 200px;
+}
+
+.circle:nth-child(2){
+    left: max(28.5%, 40% - 60px);
+}
+
+.circle:nth-child(2):hover #masodik{
+    height: 150px;
+}
+
+.circle:nth-child(3){
+    right: max(28.5%, 40% - 60px);
+}
+
+.circle:nth-child(3):hover #harmadik{
+    height: 177px;
+}
+
+.circle:nth-child(4){
+    right: max(5%, calc(15% - 50px));
+}
+
+.circle:nth-child(4):hover #negyedik{
+    height: 210px;
+}
+
+/*DATUMOK VEGE*/
+
+.Box{
+    max-width: 1300px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+
+.Cim{
+    max-width: 1600px;
+}
+
+li p{
+    font-size: 0.77em;
+    margin-right: 22px;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+footer h1:before {
+    content: "";
+    background-image:url(../images/logo.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 75px;
+    width:75px;
+    position:relative;
+    top:10px;
+    margin-right: 10px;
+}
+
+#Linkek{
+    max-width: 1300px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#Linkek img{
+    margin-left: 40px;
+    margin-top: 25px;
+    height: 120px;
+    width: 375px;
+    padding: 20px 20px 20px 20px;
+    background-color: #222;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+#Linkek #logo3{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#Linkek a:hover img{
+    transform: scale(1.05);
+}
+
+abbr{
+    text-decoration-line: none !important;
+}
+
+.navbar-brand{
+    font-size: 2em; 
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+nav li{
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+main a:visited{
+    color:rgba(96, 141, 225, 0.591);
+}
+
+#PrintDatumok{
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    .title_button{
+        margin-left: 15px;
+        margin-right: 69px;
+    }
+
+    main h1{
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h2, p, h3{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    li p{
+        word-wrap: break-word;  
+        white-space: -moz-pre-wrap;
+        white-space: pre-wrap;  
+    }
+
+    .Box{
+        width: 100%;
+        min-height: 0;
+    }
+
+    footer h1:before {
+        content: none;
+    }
+
+    footer h1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 869px) {  
+    #OurToken p, #OurToken h2{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #OurToken{
+        background: url(../images/kezdolapkep1-telo3.png) no-repeat;
+        background-size: 100% auto;
+        background-position: 0 min(350px, calc(830px + -97vw));
+        min-height: max(970px, calc(830px + 25vw));
+        width: 100%;
+    }
+
+    .lent .cel{
+        left: -127px;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #Linkek{
+        padding-bottom: 0;
+        width: 90%;
+    }
+    
+    #Linkek a, #Linkek img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 420px;
+        height: 130px;
+    }
+}
+

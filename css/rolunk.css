@@ -1,0 +1,280 @@
+body{
+    min-width: 500px;
+    background-color: #191919;
+}
+
+header{
+    min-height: 65vh;
+    width: 100%;
+    background-image: url(../images/rolunkhatter.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+h1{
+    color:#fff;
+}
+
+.ugras_az_oldalon{
+    position: absolute;
+    top:-1000px;
+}
+
+header h1{
+    font-size: 3em;
+    text-align: left;
+    color:#fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 13.7em;
+    font-family: 'Montserrat','Lucida Sans', sans-serif;
+}
+
+aside h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 4em;
+    padding-top: 42px;
+    margin-left:10px;
+    font-family: 'Orbitron', 'Radio Canada', Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-left: 50px;
+    margin-right: 100px;
+    position: relative;
+    padding-top: 42vh;
+    padding-bottom: 20px;
+    margin-bottom: 1vh;
+}
+
+h2{
+    font-size: 2.8em;
+    text-align: left;
+    color:#fff;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    text-align: left;
+    color:#fff;
+    padding-left: 0;
+    font-family: sans-serif, Courier, monospace;
+}
+
+.Elokep{
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.Elokep:hover{
+    transform: scale(1.1);
+}
+
+.Leiras{
+    display: inline-block;
+    width: calc(100% - 230px);
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+main img{
+    width:200px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+#KulsoBox{
+    max-width: 1950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#Leirasok{
+    display: block;
+}
+
+.Box{
+    max-width: 1300px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+}
+
+form{
+    max-width: 669px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+}
+
+form h1{
+    font-size:2em;
+    text-align: left;
+    margin-left: 0;
+}
+
+label{
+    color:#fff;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+input[type=text], textarea{
+    min-width: 342px;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]{
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+
+input[type="reset"], input[type="submit"]{
+    margin-top:20px;
+    background-color: #1051a1;
+    color: #fff;
+    border-radius: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    font-size: 1.3em;
+    height: 35px;
+    width: 125px;
+    position: absolute;
+    bottom: 22px;
+}
+
+input[type="submit"]{
+    right: 112px;
+}
+
+input[type="reset"]{
+    left: 112px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+footer h1:before {
+    content: "";
+    background-image:url(../images/logo.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 75px;
+    width:75px;
+    position:relative;
+    top:10px;
+    margin-right: 10px;
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+nav li{
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+abbr{
+    text-decoration-line: none !important;
+}
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    .title{
+        margin-left: 15px;
+        margin-right: 69px;
+    }
+
+    h2, p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .Box{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .Box:first-child{
+        flex-direction: column;
+    }
+
+    form{
+        max-width: none;
+        width: 100%;
+    }
+
+    .Leiras{
+        width: 100%;
+    }
+
+    .Elokep img{
+        margin-right: 0;
+    }
+
+    input[type="submit"]{
+        right: 75px;
+    }
+    
+    input[type="reset"]{
+        left: 75px;
+    }
+
+    footer h1:before {
+        content: none;
+    }
+}
+
+@media only screen and (min-width: 1950px) {
+    form{
+        display: inline-block;
+        width: 600px;
+    }
+
+    #Leirasok{
+        display: inline-block;
+    }
+}
+
+

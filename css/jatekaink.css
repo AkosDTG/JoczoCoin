@@ -1,0 +1,177 @@
+
+body{
+    min-width: 500px;
+    background-color: #191919;
+}
+
+header{
+    min-height: 65vh;
+    width: 100%;
+    background-image: url(../images/jatekainkhatter.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ugras_az_oldalon{
+    position: absolute;
+    top:-1000px;
+}
+
+header h1{
+    font-size: 3em;
+    text-align: left;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 16em;
+    font-family: 'Montserrat','Lucida Sans', sans-serif;
+}
+
+.title{
+    margin-left: 50px;
+    margin-right: 100px;
+    position: relative;
+    padding-top: 42vh;
+    padding-bottom: 20px;
+    margin-bottom: 1vh;
+}
+
+h2{
+    font-size: 2.8em;
+    text-align: left;
+    color:#fff;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    text-align: left;
+    color:#fff;
+    padding-left: 0;
+    margin-right: 25px;
+    font-family: sans-serif, Courier, monospace;
+}
+
+footer h1{
+    font-size: 4em;
+    color:#fff;
+    padding-top: 42px;
+    margin-left:10px;
+    font-family: 'Orbitron', 'Radio Canada', Arial, Helvetica, sans-serif;
+}
+
+#img1{
+    height: 400px;
+    float: right;
+    margin-left:10px;
+    margin-right: 0;
+    padding-top: 20px;
+}
+
+#img2{
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+    margin-left:0;
+}
+
+.Box:first-child{
+    min-height: 420px;
+    padding-top: 20px;
+}
+
+.Box{
+    max-width: 1300px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+footer h1:before {
+    content: "";
+    background-image:url(../images/logo.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 75px;
+    width:75px;
+    position:relative;
+    top:10px;
+    margin-right: 10px;
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+nav li{
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+
+a abbr{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    .title{
+        margin-left: 15px;
+        margin-right: 69px;
+    }
+
+    h2{
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h2, p, figure{
+        width: 92%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #img1, #img2{
+        width: 100%;
+        height: auto;
+    }
+
+    #img2{
+        margin-top: 20px;
+    }
+
+
+    .Box{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        min-height: 0;
+    }
+
+    footer h1:before {
+        content: none;
+    }
+}
+

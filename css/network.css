@@ -1,0 +1,242 @@
+body{
+    min-width: 500px;
+    background-color: #191919;
+}
+
+header{
+    min-height: 65vh;
+    width: 100%;
+    background-image: url(../images/Netwrokhatter2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ugras_az_oldalon{
+    position: absolute;
+    top:-1000px;
+}
+
+main h1{
+    font-size: 2.8em;
+    text-align: left;
+    color:#fff;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    text-align: left;
+    color:#fff;
+    padding-left: 0;
+    margin-right: 25px;
+    font-family: sans-serif, Courier, monospace;
+}
+
+footer h1{
+    font-size: 4em;
+    color:#fff;
+    padding-top: 42px;
+    margin-left:10px;
+    font-family: 'Orbitron', 'Radio Canada', Arial, Helvetica, sans-serif;
+}
+
+#img2{
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.Box{
+    max-width: 1300px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.Box:last-child{
+    max-width: 1100px;
+    padding-top: 5px;
+}
+
+#Link{
+    margin-left: 5px;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+#Link:visited{
+    color: rgb(203, 203, 203);
+}
+
+summary{
+    color: #fff;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 1100px;
+}
+
+table tr:nth-child(even){background-color: #333}
+
+.NemCim:hover {background-color: #44a8e2b9}
+
+caption{
+    caption-side: top;
+    text-align: left;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+summary{
+    font-size: 1.20em;
+}
+
+details{
+    font-size: 0.45em;
+    font-weight: normal;
+}
+
+
+th, td{
+    color: #fff;
+    border: 1px solid #191919;
+    padding: 8px;
+}
+
+th{
+    font-size: 2em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+td{
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+footer h1:before {
+    content: "";
+    background-image:url(../images/logo.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 75px;
+    width:75px;
+    position:relative;
+    top:10px;
+    margin-right: 10px;
+}
+
+abbr{
+    text-decoration-line: none !important;
+}
+
+a abbr{
+    cursor: pointer !important;
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+nav li{
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+video{
+    width: 90%;
+    max-width: 1100px;
+    display: block;
+    padding-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main a:visited{
+    color:rgb(130, 162, 222);
+}
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+
+    main h1{
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    main h1, p, summary{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    figure{
+        width: 90%;
+        height: auto;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #img2{
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .Box{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        min-height: 0;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    caption{
+        margin-left: 25px;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    footer h1:before {
+        content: none;
+    }
+}
+
+
